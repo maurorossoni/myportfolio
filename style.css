@@ -99,7 +99,7 @@ main {
   transition: 0.3s;
 }
 
-@media (max-width: 999px) {
+@media (max-width: 9992px) {
   body {
     overflow-x: hidden;
       }
