@@ -855,14 +855,15 @@ img {
 #navigationButtons a {
     background: rgb(255, 255, 255);
     border-radius: 100%;
-    border: 5px solid var(--primary-color);
+    border: 20px solid var(--primary-color);
     cursor: pointer;
-    padding: 4px;
-    margin: 5px;
-    width: 20px;
-    height: 20px;
-    font-size: 16px;
-    color: black;
+    padding: 10px;
+    margin: 4px;
+    width: 28px;
+    height: 28px;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -914,7 +915,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: rgb(211, 250, 153);
+    background-color: rgb(153, 255, 0);
 }
 
 #status {
@@ -928,15 +929,20 @@ button[type="submit"]:hover {
 }
 
 #status.success {
+    margin: 22px;
     background-color: rgb(211, 250, 153);
     animation: status 10s ease forwards;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #status.error {
+    margin: 25px;
     background-color: rgb(255, 0, 0);
     color: rgb(255, 255, 255);
     animation: status 9s ease forwards;
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 @keyframes status {
